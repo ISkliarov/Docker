@@ -1,3 +1,9 @@
+#---------------------------------------------------
+# Testing Dockerfile with Node.js application
+#
+# Made by Serhii Skliarov Date: 25 Aug 23
+#---------------------------------------------------
+
 # Use the official Node.js image as the base image
 FROM node:14-alpine
 

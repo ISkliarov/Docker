@@ -1,0 +1,11 @@
+version: '3'
+services:
+  web:
+    image: nginx:latest
+    ports:
+      - "80:80"
+  app:
+    build:
+      context: ./myapp
+    ports:
+      - "5021:5000"
